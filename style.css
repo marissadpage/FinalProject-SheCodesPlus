@@ -1,0 +1,80 @@
+.container {
+  margin: 100px 300px;
+  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-style: solid;
+  border-color: purple;
+  border-radius: 30px;
+  font-family: 'Xanh Mono', monospace;
+}
+
+body {
+  padding: 30px 10px;
+  max-width: 750px;
+  margin: block;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800px;
+  padding: 60px 10px 0px 10px;
+  color: white;
+  padding-left: 25px;
+  text-transform: capitalize;
+}
+
+.time-and-date {
+  text-align: center;
+  font-size: 18px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+button {
+  color: purple;
+  border: pink;
+  background: white;
+  border-radius: 7px;
+  padding: 5px 10px;
+  display: block;
+  margin: 0;
+  margin-left: 280px;
+  margin-bottom: 70px;
+}
+
+button:hover {
+  background: pink;
+  color: white;
+  transition-delay: 3ms;
+  border: white;
+}
+
+input {
+  text-align: center;
+  margin-left: 230px;
+  padding: 3px;
+  margin-top: 30px;
+}
+
+.githublink {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: bold;
+}
+
+icon {
+  font-size: 30px;
+}

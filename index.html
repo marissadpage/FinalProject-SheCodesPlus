@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/4f1227e5b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 span class="city">
+            Please Enter A City</h1>
+       <h1>
+            <div class="time-and-date"> Current time and date </div>
+        </h1>
+        <ul class="first-list"> <br>
+        <li> <span id="description"></span></li> <br>
+        <li> <img src="" alt="" id="icon" /> </li> <br>
+       </ul>
+
+        
+
+     <ul class="second-list">
+         <li>Temperature: <span id="temperature"></span><span class="units"><a href="#" id="celsius-link" class="active">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a></span></li>
+         <li>
+             Humidity: <span id="humidity"></span>%
+         </li>
+         <li>Wind Speed: <span id="wind"></span>km/h</li>
+        
+         
+     </ul>
+
+        <form id="search-form">
+            <div class="search">
+                <input id="find-city" type="text" placeholder="Please enter a city" /></di>
+                <br> <br>
+                <button> Check Weather </button>
+        </form>
+        </div>
+        <p class="githublink"> <a href="https://github.com/marissadpage/FinalProject-SheCodesPlus">Github Repository</a></p>
+        <script src="src/index.js"></script>
+</body>
+
+</html>  
